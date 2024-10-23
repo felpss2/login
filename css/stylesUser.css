@@ -1,0 +1,87 @@
+
+
+body {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("../img/layered-waves-haikei.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat";
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login {
+    display: flex;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    font-family: "Montserrat";
+    font-size: 25px;
+
+
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    font-family: "Montserrat";
+    font-size: 25px;
+
+
+}
+
+input{
+
+    margin: 5px;
+    display: flex;
+    height: 150px;
+    width: 299px;
+
+
+
+}
+
+button{
+    margin:10px;
+    align-self: end;
+    justify-self: flex-end;
+    flex-direction: row;
+    width: 145px;
+
+}
+
+a{
+    font-size: 10px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+}
