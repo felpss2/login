@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Verifica se não há token; se não houver, redireciona para a página de login
     if(!token){
-        window.location.href = "index.html"; // Redireciona para o login se não houver token
+        window.location.href = "protected.html"; // Redireciona para o login se não houver token
         return; // Interrompe a execução do código
     }
 
