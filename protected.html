@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/stylesUser.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Usuário</title>
+    <link rel="stylesheet" href="css/stylesUser.css">
 </head>
-
 <body>
-  <main>
-    <div class="login">
-      <form class="loginForm" id="loginForm">
+    <div class="container">
         <h2>Bem-vindo, <span id="userEmail"></span></h2>
-        <input type="input" id="NewEmail" placeholder="usuário">
-
-        <div class="botao">
-          <button id="submit">excluir</button>
-          <button id="submit">editar</button>
-        </div>
-
-        <a href="registro.html">Não possui conta?</a>
+        <form id="updateForm">
+            <label for="newEmail">Novo Email:</label>
+            <input type="email" id="newEmail" name="newEmail">
+            <label for="newPassword">Nova Senha:</label>
+            <input type="password" id="newPassword" name="newPassword">
+            <button type="submit">Atualizar</button>
+        </form>
+        <button id="deleteUser">Deletar Conta</button>
         <div id="message"></div>
-      </form>
     </div>
 
-  </main>
-  <script src="js/user.js"></script>
+    <script src="js/user.js"></script>
 </body>
-
 </html>
